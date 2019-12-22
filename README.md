@@ -27,4 +27,7 @@ Implementation notes:
 3. sse_query.py: Used to search the encrypted input file for specific keywords that are saved as trapdoors.
 
         $ python3 sse_query.py
+       
+   ![sq1](https://user-images.githubusercontent.com/25291535/71326459-1e15e800-24c9-11ea-80a3-5f2fabbc71b2.png)
+
 
