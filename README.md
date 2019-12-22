@@ -1,6 +1,6 @@
 # SSE (Searchable Symmetric Encryption)
 
-Final project for Fall'19 - 601.745 | Advanced topics in Cryptography
+## Final project for Fall'19 - 601.745 | Advanced topics in Cryptography
 
 Trapdoor-based Searchable Symmetric Encryption Scheme for Data
 
