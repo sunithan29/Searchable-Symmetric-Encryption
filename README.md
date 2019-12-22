@@ -13,16 +13,19 @@ Implementation notes:
         $ python3 masterkey_gen.py > masterkey
 
 2. Build an Index using build_index.py:
-                
+         
+        $ python3 build_index.py
+         
+   (a)Phase I: input_index: The input file is encrypted using the masterkey and generates an index
 
-   (a)input_index: The input file is encrypted using the masterkey and generates an index
-
-   (b)Generate trapdoor: Uses masterkey and keyword as the input, and outputs the trapdoor of keyword.
+   (b)Phase II: Generate trapdoor: Uses masterkey and keyword as the input, and outputs the trapdoor of keyword.
    
    ![1final](https://user-images.githubusercontent.com/25291535/71326133-89a98680-24c4-11ea-9eb7-7c388df8e553.png)
 
    
    
 3. sse_query.py: Used to search the encrypted input file for specific keywords that are saved as trapdoors.
+
+        $ python3 sse_query
 
    ![sq](https://user-images.githubusercontent.com/25291535/71326136-98903900-24c4-11ea-8d64-0bc66cbb1515.png)
