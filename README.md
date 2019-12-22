@@ -8,9 +8,12 @@ In this project, we use trapdoor-based Searchable Symmetric Encryption scheme to
 
 Implementation notes:
 
-1. Generate a masterkey using masterkey_gen.  This creates a 16 byte long key which will be used to encrypt the input file and      generate a trapdoor for a keyword.
+1. Generate a masterkey using masterkey_gen.  This creates a 16 byte long key which will be used to encrypt the input file and      generate a trapdoor for a keyword. Ensure you choose the correct encoding and length for the key.
+       
+       -s $ python3 masterkey_gen.py > masterkey
 
 2. Build an Index using build_index.py:
+                
 
    (a)input_index: The input file is encrypted using the masterkey and generates an index
 
