@@ -28,4 +28,3 @@ Implementation notes:
 
         $ python3 sse_query.py
 
-   ![sq](https://user-images.githubusercontent.com/25291535/71326136-98903900-24c4-11ea-8d64-0bc66cbb1515.png)
