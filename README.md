@@ -10,7 +10,7 @@ Implementation notes:
 
 1. Generate a masterkey using masterkey_gen.  This creates a 16 byte long key which will be used to encrypt the input file and      generate a trapdoor for a keyword. Ensure you choose the correct encoding and length for the key.
        
-       -s $ python3 masterkey_gen.py > masterkey
+        $ python3 masterkey_gen.py > masterkey
 
 2. Build an Index using build_index.py:
                 
