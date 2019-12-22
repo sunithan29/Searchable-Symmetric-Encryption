@@ -4,7 +4,7 @@
 
 Trapdoor-based Searchable Symmetric Encryption Scheme for Data
 
-In this project, we use trapdoor-based Searchable Symmetric Encryption scheme to run search queries on encrypted data. The input file used to test this implementation is a log file that tracks error reports and categories with over 2000 records.  
+In this project, we use trapdoor-based Searchable Symmetric Encryption scheme to run search queries on encrypted data. The input file used to test this implementation is a log file that tracks error reports and categories with over 4000 records.  
 
 Implementation notes:
 
@@ -16,9 +16,10 @@ Implementation notes:
 
    (b)Generate trapdoor: Uses masterkey and keyword as the input, and outputs the trapdoor of keyword.
    
-  ![final-bi](https://user-images.githubusercontent.com/25291535/71325959-4c43f980-24c2-11ea-8bed-9dd8ebba1c73.png)
+   ![1final](https://user-images.githubusercontent.com/25291535/71326133-89a98680-24c4-11ea-9eb7-7c388df8e553.png)
+
    
    
 3. sse_query.py: Used to search the encrypted input file for specific keywords that are saved as trapdoors.
 
-
+   ![sq](https://user-images.githubusercontent.com/25291535/71326136-98903900-24c4-11ea-8d64-0bc66cbb1515.png)
