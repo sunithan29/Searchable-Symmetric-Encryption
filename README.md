@@ -1,4 +1,4 @@
-# Searchable-Symmetric-Encryption
+# SSE (Searchable Symmetric Encryption)
 
 Final project for Fall'19 - 601.745 | Advanced topics in Cryptography
 
