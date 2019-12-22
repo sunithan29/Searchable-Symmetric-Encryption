@@ -16,6 +16,8 @@ Implementation notes:
 
    (b)Generate trapdoor: Uses masterkey and keyword as the input, and outputs the trapdoor of keyword.
    
+  ![final-bi](https://user-images.githubusercontent.com/25291535/71325959-4c43f980-24c2-11ea-8bed-9dd8ebba1c73.png)
+   
    
 3. sse_query.py: Used to search the encrypted input file for specific keywords that are saved as trapdoors.
 
