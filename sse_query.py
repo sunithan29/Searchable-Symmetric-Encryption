@@ -46,3 +46,7 @@ if __name__ == "__main__":
     keyword_trapdoor_file = input("\nPlease input the file where trapdoor is stored:  ")
     result_keyword_trapdoor = open(keyword_trapdoor_file, "wb")
     print (search_index(index_file_name, result_keyword_trapdoor))
+
+    
+    
+   
